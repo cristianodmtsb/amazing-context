@@ -6,8 +6,6 @@ import { Heading } from '../../components/Heading'
 export function Home() {
   const [state, actions] = useCounterContext();
 
-  console.log(state);
-
   return (
     <div>
       <Heading>Home {state.count}</Heading>
